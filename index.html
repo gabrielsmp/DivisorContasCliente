@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Divisor de Conta</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script> 
+</head>
+<body>
+  <h1>Divisor de Conta de Restaurante</h1>
+  
+  <h2>Exemplo 1</h2>
+  
+  <table id="products-table-1">
+    <tr>
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Consumidores</th>
+    </tr>
+    <tr>
+      <td>Pizza</td>
+      <td>R$42,00</td>
+      <td>
+        <input type="checkbox" name="consumers-1" value="João"> João
+        <input type="checkbox" name="consumers-1" value="Maria"> Maria
+        <input type="checkbox" name="consumers-1" value="Pedro"> Pedro
+      </td>
+    </tr>
+    <tr>
+      <td>Refrigerante</td>
+      <td>R$8,00</td>
+      <td>
+        <input type="checkbox" name="consumers-1" value="João"> João
+        <input type="checkbox" name="consumers-1" value="Pedro"> Pedro
+        <input type="checkbox" name="consumers-1" value="Maria"> Maria
+      </td>
+    </tr>
+    <tr>
+      <td>Suco</td>
+      <td>R$7,00</td>
+      <td>
+        <input type="checkbox" name="consumers-1" value="Maria"> Maria
+      </td>
+    </tr>
+  </table>
+  
+  <h2>Exemplo 2</h2>
+  
+  <table id="products-table-2">
+    <tr>
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Consumidores</th>
+    </tr>
+    <tr>
+      <td>Rodízio Simples</td>
+      <td>R$70,00</td>
+      <td>
+        <input type="checkbox" name="consumers-2" value="Marcos"> Marcos
+        <input type="checkbox" name="consumers-2" value="Júlia"> Júlia
+        <input type="checkbox" name="consumers-2" value="Fernando"> Fernando
+      </td>
+    </tr>
+    <tr>
+      <td>Rodízio Executivo</td>
+      <td>R$85,00</td>
+      <td>
+        <input type="checkbox" name="consumers-2" value="Caio"> Caio
+      </td>
+    </tr>
+    <tr>
+      <td>Temaki</td>
+      <td>R$20,00</td>
+      <td>
+        <input type="checkbox" name="consumers-2" value="Patricia"> Patricia
+      </td>
+    </tr>
+    <tr>
+      <td>Refrigerante</td>
+      <td>R$6,00</td>
+      <td>
+        <input type="checkbox" name="consumers-2" value="João"> João
+        <input type="checkbox" name="consumers-2" value="Maria"> Maria
+        <input type="checkbox" name="consumers-2" value="Pedro"> Pedro
+        <input type="checkbox" name="consumers-2" value="Marcos"> Marcos
+        <input type="checkbox" name="consumers-2" value="Júlia"> Júlia
+        <input type="checkbox" name="consumers-2" value="Fernando"> Fernando
+        <input type="checkbox" name="consumers-2" value="Caio"> Caio
+        <input type="checkbox" name="consumers-2" value="Patricia"> Patricia
+        <input type="checkbox" name="consumers-2" value="Bianca"> Bianca
+      </td>
+    </tr>
+    <tr>
+      <td>Porção de Peixe</td>
+      <td>R$50,00</td>
+      <td>
+        <input type="checkbox" name="consumers-2" value="Bianca"> Bianca
+        <input type="checkbox" name="consumers-2" value="Patricia"> Patricia
+      </td>
+    </tr>
+  </table>
+  
+  <button class="calculate-btn" onclick="calculate()">Calcular</button>
+  
+  <div id="result"></div>
+</body>
+</html>
